@@ -26,7 +26,7 @@ const Home = props => (
 ```bash
 import HeaderSection from "@/components/HeaderSection";
 import ActionButton from "@/components/ActionButton";
-import { AiOutlinePlusCircle } from "react-icons/ai";
+import { UtlinePlusCircle } from "react-icons/ai";
 
 const Profile = (props) => {
     return (
@@ -37,7 +37,7 @@ const Profile = (props) => {
                 rightItem={() => (
                     <ActionButton
                         onClick={() => setModal(true)}
-                        Icon={AiOutlinePlusCircle}
+                        Icon={UtlinePlusCircle}
                         label="Add New User"
                     />
                 )}
