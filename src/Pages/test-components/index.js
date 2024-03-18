@@ -1,11 +1,11 @@
 import BillingHistory from "../../components/BillingHistory";
-import HeaderSection from "@aio/components/HeaderSection";
+import HeaderSection from "@/components/HeaderSection";
 
 
 const TestComponents = () => {
     return (
         <>
-            <HeaderSection 
+            <HeaderSection
                 heading={'Plans and Billing'}
                 subHeading={'Plans and Billing History'}
             />

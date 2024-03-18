@@ -1,5 +1,5 @@
 import Profile from "../src/Pages/Profile";
-import Layout from "@aio/components/layout";
+import Layout from "@/components/layout";
 
 export default () => (
     <Layout>

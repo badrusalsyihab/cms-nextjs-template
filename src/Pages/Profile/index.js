@@ -1,9 +1,9 @@
-import HeaderSection from "@aio/components/HeaderSection";
+import HeaderSection from "@/components/HeaderSection";
 
 const Profile = (props) => {
     return (
         <>
-            <HeaderSection 
+            <HeaderSection
                 heading={'Hello Rizwan'}
                 subHeading={'Lets check your stats today!'}
             />

@@ -1,7 +1,7 @@
 import Link from "next/link";
-import FullButton from "@aio/components/FullButton";
-import Input from "@aio/components/Input";
-import Logo from "@aio/components/Logo";
+import FullButton from "@/components/FullButton";
+import Input from "@/components/Input";
+import Logo from "@/components/Logo";
 import styles from "./login.module.css";
 
 const Login = () => {

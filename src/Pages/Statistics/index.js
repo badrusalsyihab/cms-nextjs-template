@@ -1,8 +1,8 @@
 import BarChartExample from "../../components/BarChartExample";
 import DoughnutChartExample from "../../components/DoughnutChartExample";
-import Card from "@aio/components/Card";
-import HeaderSection from "@aio/components/HeaderSection";
-import Section from "@aio/components/Section";
+import Card from "@/components/Card";
+import HeaderSection from "@/components/HeaderSection";
+import Section from "@/components/Section";
 
 const Statistics = () => {
   const cardContainer = {

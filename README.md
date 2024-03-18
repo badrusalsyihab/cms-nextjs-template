@@ -11,7 +11,7 @@ This dashboard comes with lots of features which can reduce development time.
 Layout Component brings up Top Header and Side Navigation Controls
 
 ```bash
-import Layout from "@aio/components/layout";
+import Layout from "@/components/layout";
 
 const Home = props => (
     <Layout>
@@ -24,8 +24,8 @@ const Home = props => (
 ## Page Header Component with page heading and subheading and action components
 
 ```bash
-import HeaderSection from "@aio/components/HeaderSection";
-import ActionButton from "@aio/components/ActionButton";
+import HeaderSection from "@/components/HeaderSection";
+import ActionButton from "@/components/ActionButton";
 import { AiOutlinePlusCircle } from "react-icons/ai";
 
 const Profile = (props) => {
@@ -53,8 +53,8 @@ Section component is a container which brings alignment and spacing for content
 
 
 ```bash
-import Section from "@aio/components/Section";
-import DataCard from "@aio/components/DataCard";
+import Section from "@/components/Section";
+import DataCard from "@/components/DataCard";
 
 const Home = () => {
     return (
@@ -85,7 +85,7 @@ const Home = () => {
 ## Table component
 
 ```bash
-import Table from "@aio/components/Table";
+import Table from "@/components/Table";
 
 const BillingHistory = () => {
     return (
@@ -115,7 +115,7 @@ const BillingHistory = () => {
 ## Modal Component
 
 ```bash
-import Modal from "@aio/components/Modal";
+import Modal from "@/components/Modal";
 
 const ExampleModal = (props) => {
     const [modal, setModal] = useState(false);
@@ -146,13 +146,13 @@ const ExampleModal = (props) => {
         >
     );
 }
- 
+
 ```
 
 ## Input Text Component
 
 ```bash
-import Input from "@aio/components/Input";
+import Input from "@/components/Input";
 
     <Input
         inputContainerStyle={{ padding: "15px 30px" }}
