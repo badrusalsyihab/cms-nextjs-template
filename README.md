@@ -1,6 +1,6 @@
-## AIO Admin Dashboard
+## Admin Dashboard
 
-Developed this aio dashboard using nextjs with lots of love.
+Developed this dashboard using nextjs with lots of love.
 
 This dashboard comes with lots of features which can reduce development time.
 
@@ -33,7 +33,7 @@ const Profile = (props) => {
         <>
             <HeaderSection
                 heading={"Dashboard"}
-                subHeading={"Welcome to aio dashboard"}
+                subHeading={"Welcome to dashboard"}
                 rightItem={() => (
                     <ActionButton
                         onClick={() => setModal(true)}
@@ -138,7 +138,7 @@ const ExampleModal = (props) => {
         <Modal
             isOpen={modal}
             onClose={handleClose}
-            heading={"AIO Dashboard"}
+            heading={"Dashboard"}
             positiveText={"Save Changes"}
             negativeText={"Cancel"}
             onCancel={handleCancel}
